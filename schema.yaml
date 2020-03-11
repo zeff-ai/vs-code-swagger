@@ -12,4 +12,8 @@ paths:
       summary: Return stuff
       responses:
         '200':
-          description: A JSON object
+          description: |
+            # Heading goes here
+            ```
+            code block here
+            ```
