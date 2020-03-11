@@ -1,0 +1,15 @@
+{
+  "name": "browesable-docs",
+  "version": "1.0.0",
+  "description": "Browesable documentation using AOS 3.0 and ReDoc",
+  "main": "index.js",
+  "scripts": {
+    "serve-docs": "npx redoc-cli serve --watch schema.yaml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emily Webber",
+  "license": "DataRobot",
+  "dependencies": {
+    "redoc-cli": "^0.9.6"
+  }
+}
